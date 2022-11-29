@@ -11,7 +11,6 @@ public class WhiteBoard {
         System.out.println("Teacher writes "+text);
     }
     synchronized public String read(){
-        System.out.println("Student reads "+this.text);
         return this.text;
     }
     synchronized public void attendance(){
