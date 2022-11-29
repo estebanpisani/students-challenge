@@ -12,6 +12,7 @@ public class Student extends Thread{
     @Override
     public void run() {
         this.whiteBoard.attendance();
+
         for (int i=0; i<50; i++){
             System.out.println(this.name+" is reading "+whiteBoard.read());
             System.out.flush(); //Para que se impriman en orden, por las dudas.
